@@ -18,7 +18,7 @@ body {
 	left: 0;
 	width: 100%;
 	padding: 20px 10%;
-	background: transparent;
+	background: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -117,4 +117,85 @@ body {
 
 .home-sci a:hover::before {
 	width: 100%;
+}
+
+.about{
+	background-color: #000000;
+/*	border:solid 2px;*/
+/*	border-color: coral;*/
+	padding-left: 600px;
+    text-align: right;
+	padding-bottom: 30px;
+}
+
+.about-content{
+	max-width: 600px;
+}
+
+.about-content h2{
+	font-size:55px;
+	font-weight: 700;
+}
+
+.about-content p{
+	font-size: 30px;
+	margin: 20px 0 40px;
+}
+
+.about-content a{
+	text-decoration: none;
+	color:white;
+	transition: .5s
+}
+
+.about-content a:hover{
+	color:#05685E;	
+}
+
+.portfolio{
+	padding-top: 55px;
+	background-color: #000000;
+/*	border:solid 2px;*/
+	text-align: center;
+	height:100vh;
+}
+
+.portfolio-content{
+/*	border:solid 2px;*/
+/*	border-color:burlywood;*/
+	height:75vh;
+	display:flex;
+	background:transparent;
+}
+.portfolio h2{
+	font-size:55px;
+	font-weight: 700;
+	padding:10px;
+	
+}
+.portfolio-col{
+/*	border:solid 2px;*/
+/*	border-color:yellow;*/
+	margin-left:30px;
+	margin-right:20px;
+	background:transparent;
+	margin-top:15px;
+	text-align: justify;
+		
+}
+.portfolio-content h3{
+	color: #001851;
+	transition:.3s;
+	font-size:40px;
+	text-align: center;
+}
+.portfolio-content h3:hover{
+	color:#003AF4;
+}
+.portfolio-content a{
+	text-decoration: none;
+}
+.portfolio-content p{
+	color:antiquewhite;
+	font-size:24px;
 }
